@@ -1,0 +1,6 @@
+.Featured-Posts{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 50px;
+}

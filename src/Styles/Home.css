@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.Home{
+    background-color: #fffaf0;
+    min-height: 100vh;
+    /* margin-right: 10rem;
+    margin-left: 10rem; */
+
+}
+
+.Home-Container{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    padding-top: 0;
+}
+
+.Main-Splash{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    background-image: url('../windmill-3080496_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    margin: 0px;
+    /* margin-bottom: -1000px; */
+}
+
+.Home-H1{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    
+    
+    
+}
+
