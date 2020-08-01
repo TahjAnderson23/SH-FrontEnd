@@ -7,13 +7,14 @@ export default class PostCard extends Component{
     render(){
         return(
             <div className="Post-Cards">
-                <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src= {Logo} />
+                <Card className="Post-Card-Base" style={{ width: '19rem' }}>
+                    <Card.Img className="Post-Card-Top" variant="top" src= {Logo} />
                     <Card.Body>
-                        <Card.Title>Card Title</Card.Title>
+                        <Card.Title className="Title" >New Way To Make Your Own Soap</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                          <div class="text">
+                            Here we are going to teach you how to make eco friendly soap!
+                         </div>
                         </Card.Text>
                         {/* <Button variant="primary">Go somewhere</Button> */}
                     </Card.Body>

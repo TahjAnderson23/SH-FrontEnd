@@ -1,0 +1,37 @@
+.Post-Card{
+
+}
+
+.Post-Card-Base{
+    border: none;
+    background: none;
+
+    /* padding: 1rem; */
+    border-radius: 0.5rem;
+
+    transition: 0.5s;
+    
+    /* border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem; */
+    
+}
+
+.Post-Card-Base:hover{
+    transition: 0.2s;
+    padding: 0.5rem;
+}
+
+.Post-Card-Top{
+    border-radius: 0.5rem;
+    /* border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; */
+}
+
+.Title{
+    font-size: 30px;
+}
+.text{
+    height: auto;
+    width: auto;
+    padding: 0.5rem;
+}

@@ -12,6 +12,7 @@ import "./Navigation.css"
 
   import Home from "./Pages/Home"
   import About from "./Pages/About"
+  import Explore from "./Pages/Explore"
   /* Does this count */
   
   class Navigation extends Component {
@@ -27,6 +28,10 @@ import "./Navigation.css"
           <Nav className="mr-auto">
             <Nav.Link as={NavLink} className="Routes-NavLink" to='/'>Home</Nav.Link>
             <Nav.Link as={NavLink} className="Routes-NavLink" to='/About'>About</Nav.Link>
+            <Nav.Link as={NavLink} className="Routes-NavLink" to='/Explore'>Explore</Nav.Link>
+          {/* <Nav.Link as={NavLink} className="Routes-NavLink" to='/Account'>Account</Nav.Link>*/}
+          {/* <Nav.Link as={NavLink} className="Routes-NavLink" to='/Login'>Log In</Nav.Link>*/}
+          {/* <Nav.Link as={NavLink} className="Routes-NavLink" to='/Signup'>Sign Up</Nav.Link>*/}
           </Nav>
 
         {/* Search Bar */}
@@ -40,6 +45,8 @@ import "./Navigation.css"
         <Switch>
           <Route exact path="/" render ={() => <Home />} />
           <Route exact path="/About" render ={() => <About />} />
+          <Route exact path="/Explore" render ={() => <Explore />} />
+
 
         </Switch>
   </Router>
