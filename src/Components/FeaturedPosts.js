@@ -6,7 +6,7 @@ export default class FeaturedPosts extends Component{
     render(){
         return(
             <div>
-                <h1>Featured Posts</h1>
+                <h1 className="H1-style">Featured Posts</h1>
                 <div className="Featured-Posts" >
                     <PostCard />
                     <PostCard />

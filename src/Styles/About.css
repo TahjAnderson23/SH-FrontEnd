@@ -1,6 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alef&display=swap');
 .About{
     background-color: #fffaf0;
     min-height: 100vh;
     margin-top: 58px;
     padding: 2rem;
+}
+
+.Main-splash{
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+    background-image: url('../IMG_2853.JPG');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+    margin: 0px;
+}
+
+.Main-title{
+    color:#1cc76c;
+    text-align: left;
+    padding-right: 10px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+.H2-style{
+    font-family: 'Pacifico', cursive;
+    color: #1cc76c;
+}
+
+.p-style{
+    font-size: 20px;
+    font-family:'Alef', sans-serif;
 }
